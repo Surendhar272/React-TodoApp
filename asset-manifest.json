@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-TodoApp/static/css/main.db219507.css",
+    "main.js": "/React-TodoApp/static/js/main.e2175c86.js",
+    "index.html": "/React-TodoApp/index.html",
+    "main.db219507.css.map": "/React-TodoApp/static/css/main.db219507.css.map",
+    "main.e2175c86.js.map": "/React-TodoApp/static/js/main.e2175c86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db219507.css",
+    "static/js/main.e2175c86.js"
+  ]
+}
