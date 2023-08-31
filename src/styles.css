@@ -1,0 +1,102 @@
+/* styles.css */
+
+/* App */
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  /* Todo List */
+  .todo-list {
+    margin-top: 20px;
+  }
+  
+  /* Todo Item */
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .todo-item-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .todo-text {
+    margin-left: 10px;
+  }
+  
+  .complete-icon {
+    cursor: pointer;
+    margin-right: 10px;
+    color: #28a745;
+  }
+  
+  .edit-icon,
+  .delete-icon {
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  /* Add Todo Form */
+  .add-todo-form {
+    margin-top: 10px;
+  }
+  
+  .add-todo-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  
+  .add-todo-form button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+  
+  }
+  
+  .add-todo-form button:hover {
+    background-color: #0056b3;
+  }
+
+  .save-button {
+    margin: 5px;
+    margin-left: 10px; 
+  }
+
+  .cancel-button {
+    margin-left: 5px; 
+  }
+
+  .container{
+        width: 100%;
+        max-width: 540px;
+        background: white;
+        border: 2px solid black;
+        margin: 100px auto 20px;
+        padding: 40px 30px 70px;
+        border-radius: 15px;
+  }
+
